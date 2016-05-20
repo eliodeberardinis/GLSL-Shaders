@@ -152,16 +152,24 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="ShaderLoader.h" />
     <ClInclude Include="ShaderTester.h" />
     <ClInclude Include="Vec3.h" />
     <ClInclude Include="Vertex.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Fede_Shader.glsl">
+      <DeploymentContent>false</DeploymentContent>
+    </None>
+    <None Include="Fede_Shader2.glsl" />
     <None Include="Shaders\CloudsFS.glsl" />
     <None Include="Shaders\DefaultVS.glsl" />
     <None Include="Shaders\SphereFS.glsl" />
     <None Include="Shaders\WaterFS.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GLSL-Shaders.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

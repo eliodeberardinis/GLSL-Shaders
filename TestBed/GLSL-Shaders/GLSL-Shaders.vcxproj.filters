@@ -35,6 +35,9 @@
     <ClInclude Include="Vertex.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\WaterFS.glsl">
@@ -49,5 +52,16 @@
     <None Include="Shaders\DefaultVS.glsl">
       <Filter>Source Files\Shaders</Filter>
     </None>
+    <None Include="Fede_Shader.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Fede_Shader2.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GLSL-Shaders.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
